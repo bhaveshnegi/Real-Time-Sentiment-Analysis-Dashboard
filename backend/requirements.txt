@@ -1,3 +1,9 @@
 tweepy==4.14.0
 python-dotenv==1.0.0
-praw==7.7.1          # Reddit wrapper
+praw==7.7.1          
+redis==5.0.4
+fastapi==0.110.2
+uvicorn[standard]==0.29.0
+transformers==4.40.1
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.0+cpu
